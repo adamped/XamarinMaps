@@ -11,7 +11,9 @@ namespace XamarinMaps
 	{
 		public MainPage()
 		{
+			BindingContext = new MainViewModel();
 			InitializeComponent();
+			
 		}
 	}
 }

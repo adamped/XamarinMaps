@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Xamarin;
 
 namespace XamarinMaps.UWP
 {
@@ -59,6 +60,7 @@ namespace XamarinMaps.UWP
 				rootFrame.NavigationFailed += OnNavigationFailed;
 
 				Xamarin.Forms.Forms.Init(e);
+				FormsMaps.Init();
 
 				if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
 				{
