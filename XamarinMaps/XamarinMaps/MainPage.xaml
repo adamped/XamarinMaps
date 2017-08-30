@@ -5,6 +5,6 @@
 			 xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="XamarinMaps.MainPage">
 
-	<local:BindableMap MapType="Street" MapPosition="{Binding MyPosition}" />
+	<local:BindableMap MapType="Street" MapPosition="{Binding MyPosition}" MapPins="{Binding PinCollection}" />
 
 </ContentPage>
